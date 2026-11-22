@@ -136,7 +136,8 @@ RimOxide never sends your mod list, profiles, saves, logs or file paths.
 ## Known issues
 
 - Windows may warn you the first time, and with Smart App Control on, RimOxide will not run.
-- The first checkpoint of a big setup is slow; later ones are quick.
+- Checkpoints are optional backups. The first one of a big setup is slow; later ones are quick.
+  Starting RimOxide is not affected.
 - Some newer features, such as playing from a restored profile, are still being proven.
 
 The full list is in [KNOWN-ISSUES.md](KNOWN-ISSUES.md).

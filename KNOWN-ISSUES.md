@@ -27,8 +27,10 @@ please report it: see "Report a problem" in the [README](README.md#report-a-prob
 
 ## Speed
 
-- The first checkpoint of a big setup is slow: about 21 minutes for about 1,500 mods. The next one
-  took well under a minute.
+- Starting RimOxide, sorting, saving and launching the game take seconds, also with about 1,500 mods.
+- A checkpoint is an optional backup of your whole setup, made only when you ask for one. The first
+  checkpoint of a very big setup is slow, because it copies every file of every mod: about 21 minutes
+  for about 1,500 mods. Nothing is downloaded, and the next checkpoint took well under a minute.
 - Restoring a full checkpoint of a big setup can take a long time.
 - Very large lists (4,000 mods) work, but adding or removing a mod can take a noticeable moment.
 
