@@ -5,13 +5,64 @@ It finds your mods, sorts them, keeps named lists, checks them for problems, dow
 Workshop mods, keeps checkpoints of your setup, and starts the game.
 You can bring your mod lists, rules and colours over from the mod manager you used before.
 
-![The RimOxide workspace in the dark look: both mod lists, and one mod's details on the right](docs/screenshots/workspace-dark.png)
-
-![The same workspace in the light look](docs/screenshots/workspace-light.png)
+<p align="center">
+  <img src="docs/media/hero.gif" width="100%"
+    alt="RimOxide finds a mod as you type and shows its details, sorts the list with a reason for each move, then saves">
+</p>
 
 This is a beta. Back up your saves and mod lists before you use it.
 
 It is an early beta: it is not code-signed and has not yet been tried on a clean PC.
+
+To get it, see [Download](#download) below.
+
+## See it in action
+
+The pictures and the video on this page show an invented modlist.
+
+Search as you type, then drag a mod where it belongs.
+
+![A few letters narrow the list, and a found mod is dragged from the inactive list into the active one](docs/media/find.gif)
+
+Every problem says what is wrong, and its line offers the fix.
+
+![The Problems panel: a mod that needs another mod, the two fixes its line offers, and the line gone after the fix](docs/media/fix.gif)
+
+Switch between seven themes, dark or light.
+
+![The same workspace in each of the seven themes, one after another](docs/media/themes.gif)
+
+A short tour as a video (MP4):
+
+<a href="docs/media/rimoxide-tour.mp4">
+  <img src="docs/media/tour-poster.png" width="100%"
+    alt="Watch the tour: a short video of under a minute">
+</a>
+
+## Looks
+
+<table>
+  <tr>
+    <td>
+      <a href="docs/media/workspace-dark.png"><img src="docs/media/workspace-dark.png" alt="The workspace in the Dark theme"></a>
+    </td>
+    <td>
+      <a href="docs/media/workspace-light.png"><img src="docs/media/workspace-light.png" alt="The workspace in the Light theme"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="docs/media/theme-glacier.png"><img src="docs/media/theme-glacier.png" alt="The workspace in the Glacier theme"></a>
+    </td>
+    <td>
+      <a href="docs/media/theme-midnight.png"><img src="docs/media/theme-midnight.png" alt="The workspace in the Midnight theme"></a>
+    </td>
+  </tr>
+</table>
+
+The seven themes are Dark, Light, Ashfall, Glacier, Moss, Midnight and Sandstone.
+More pictures: [the sort proposal](docs/media/sort-review.png), [the Problems panel](docs/media/problems.png),
+[the command palette](docs/media/palette.png) and [the Moss theme](docs/media/theme-moss.png).
 
 ## Download
 

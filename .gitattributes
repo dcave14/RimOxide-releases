@@ -1,3 +1,5 @@
 * text=auto
 *.png binary
+*.gif binary
+*.mp4 binary
 /LICENSE.txt -text
