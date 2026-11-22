@@ -2,6 +2,19 @@
 
 The newest version is at the top.
 
+## 0.9.0-beta.3
+
+Built on 2026-11-22. Small fixes from a test run on a second PC.
+
+- After a sort that puts the list back in its saved order, the status no longer asks you to save.
+- In the sort proposal, a long reason for a move is shown in full on more lines, not cut off.
+- The Search field has a name for screen readers.
+
+Good to know:
+
+- Do not go back to an older beta after using a newer one.
+- This beta is not code-signed and has been tried on two PCs only.
+
 ## 0.9.0-beta.2
 
 Built on 2026-11-22. It fixes what the first try on a second PC found.
