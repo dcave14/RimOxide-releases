@@ -1,4 +1,4 @@
-# RimOxide
+<h1 align="center">RimOxide</h1>
 
 RimOxide is a free, fast mod manager for RimWorld on Windows, made by the community. It is not official.
 It finds your mods, sorts them, keeps named lists, checks them for problems, downloads and updates
