@@ -1,0 +1,73 @@
+RimOxide freeware licence
+Version 1 of this text, November 2026
+
+Copyright (c) 2026 dcave14
+All rights reserved.
+
+RimOxide is free to use. It is not open source. By downloading, installing
+or using RimOxide you agree to this licence. If you do not agree, do not use
+RimOxide.
+
+1. What you may do
+
+- Download, install and use RimOxide free of charge.
+- Give copies of the original download (the zip file, or the installer if
+  there is one) to other people, as long as it is complete and unchanged,
+  exactly as it was published, and you do not charge for it. Everyone who
+  gets a copy gets it under this same licence.
+- Show RimOxide in screenshots, videos and streams.
+- Keep and share the files RimOxide makes for you, such as your mod lists
+  and profiles. They are yours.
+
+2. What you may not do
+
+- Change RimOxide, or make other software from it.
+- Decompile, disassemble or reverse engineer RimOxide, or try in any other
+  way to get at its source code.
+- Copy or reuse any part of RimOxide (its code, graphics, texts or built-in
+  data) in anything else.
+- Sell RimOxide, rent it out, or charge for passing it on.
+- Remove or change this licence or any copyright notice.
+
+Some laws give you rights that a licence cannot take away, for example to
+study a program so that other software can work with it. Where such a law
+applies to you, the limits above apply only as far as that law allows.
+
+3. Parts made by others
+
+RimOxide includes the Steam Workshop Filter Plus extension, and software,
+fonts and data from other authors. Each of these stays under its own
+licence. They are listed in the THIRD-PARTY files and the licenses folder
+that come with RimOxide. This licence does not limit what those licences
+allow you to do with those parts.
+
+4. No warranty
+
+RimOxide is beta software: it is still being tested and may contain
+mistakes. It changes files that RimWorld uses, such as your mod list and
+your mod folders. Keep backups of anything you cannot afford to lose. There
+is no promise of updates, of support, or that features which need an online
+service will keep working.
+
+RIMOXIDE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE EXTENT THE LAW
+ALLOWS, THE AUTHOR IS NOT LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+ARISING FROM RIMOXIDE OR ITS USE, INCLUDING LOST OR DAMAGED DATA, MODS OR
+SAVED GAMES.
+
+5. Other terms
+
+- You get permission to use RimOxide; you do not own it. Everything this
+  licence does not clearly allow stays reserved by the author.
+- If you break this licence, your permission to use and share RimOxide ends
+  at once.
+- This licence covers the version of RimOxide it came with. Other versions
+  may come with different terms.
+- If part of this licence is not valid where you live, the rest still
+  applies.
+- Nothing in this licence limits the rights that RimWorld's own terms give
+  to the makers of RimWorld.
+
+Questions, or want to do something this licence does not allow? Ask at
+https://github.com/dcave14/RimOxide-releases

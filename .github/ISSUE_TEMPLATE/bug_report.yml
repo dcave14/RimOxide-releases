@@ -1,0 +1,83 @@
+name: Bug report
+description: Something in RimOxide does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting this. The boxes marked with a star are needed to find the problem.
+        Never attach the workshop-browser folder (it holds your Steam sign-in) or another person's ModsConfig.xml.
+  - type: input
+    id: version
+    attributes:
+      label: RimOxide version
+      description: In RimOxide open Settings, About, and copy the whole version, the part in brackets too.
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Press Win+R, type winver and press Enter. Copy the version and build it shows.
+    validations:
+      required: true
+  - type: dropdown
+    id: copy
+    attributes:
+      label: Your RimWorld copy
+      options:
+        - Steam
+        - Not Steam
+    validations:
+      required: true
+  - type: dropdown
+    id: mods
+    attributes:
+      label: About how many mods
+      options:
+        - Under 100
+        - 100 to 500
+        - 500 to 1,500
+        - More than 1,500
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you see? Copy any message RimOxide showed, word for word.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: What did you do, one step per line, so someone else can make it happen too?
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log files
+      description: >-
+        Drag the files here. In RimOxide open Settings, About, and press "Open logs folder".
+        Never attach the workshop-browser folder or another person's ModsConfig.xml.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before you send
+      options:
+        - label: I looked through the files I attached. They can show my Windows user name and my mod names.
+          required: true
