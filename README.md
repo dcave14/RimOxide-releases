@@ -24,9 +24,9 @@ Search as you type, then drag a mod where it belongs.
 
 ![A few letters narrow the list, and a found mod is dragged from the inactive list into the active one](docs/media/find.gif)
 
-Every problem says what is wrong, and its line offers the fix.
+Every problem says what is wrong, and its line offers the fix. Sort then clears the load-order lines.
 
-![The Problems panel: a mod that needs another mod, the two fixes its line offers, and the line gone after the fix](docs/media/fix.gif)
+![Problems: a line and its fixes, the line gone after one, then Sort list and Apply order take 32 problems down to 1](docs/media/fix.gif)
 
 Switch between seven themes, dark or light.
 
@@ -52,17 +52,17 @@ A short tour as a video (MP4, 7 MB). The picture opens the file's page; "View ra
   </tr>
   <tr>
     <td>
-      <a href="docs/media/theme-glacier.png"><img src="docs/media/theme-glacier.png" alt="The workspace in the Glacier theme"></a>
+      <a href="docs/media/theme-midnight.png"><img src="docs/media/theme-midnight.png" alt="The workspace in the Midnight theme"></a>
     </td>
     <td>
-      <a href="docs/media/theme-midnight.png"><img src="docs/media/theme-midnight.png" alt="The workspace in the Midnight theme"></a>
+      <a href="docs/media/theme-moss.png"><img src="docs/media/theme-moss.png" alt="The workspace in the Moss theme"></a>
     </td>
   </tr>
 </table>
 
 The seven themes are Dark, Light, Ashfall, Glacier, Moss, Midnight and Sandstone.
 More pictures: [the sort proposal](docs/media/sort-review.png), [the Problems panel](docs/media/problems.png),
-[the command palette](docs/media/palette.png) and [the Moss theme](docs/media/theme-moss.png).
+[the command palette](docs/media/palette.png) and [the Glacier theme](docs/media/theme-glacier.png).
 
 ## Download
 
