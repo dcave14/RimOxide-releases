@@ -32,7 +32,7 @@ Switch between seven themes, dark or light.
 
 ![The same workspace in each of the seven themes, one after another](docs/media/themes.gif)
 
-A short tour as a video (MP4):
+A short tour as a video (MP4, 7 MB). The picture opens the file's page; "View raw" there downloads it:
 
 <a href="docs/media/rimoxide-tour.mp4">
   <img src="docs/media/tour-poster.png" width="100%"
