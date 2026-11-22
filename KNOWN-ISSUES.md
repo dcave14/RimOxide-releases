@@ -7,7 +7,7 @@ please report it: see "Report a problem" in the [README](README.md#report-a-prob
 
 - It is not code-signed. The first time, Windows SmartScreen says "Windows protected your PC":
   click More info, then Run anyway. Some antivirus programs may also warn about it.
-- It has not yet been tried on a clean PC.
+- It has been tried on two PCs only.
 - With Smart App Control on, it will not run.
 - There is no installer. The download is a zip: unzip it and run rimoxide.exe.
 - The file's icon in File Explorer is blank. The window has its icon.
@@ -16,7 +16,9 @@ please report it: see "Report a problem" in the [README](README.md#report-a-prob
   RimOxide tells you so and the rest of the app still works.
 - Only one RimOxide window runs at a time. A second start is refused, because two windows would
   overwrite each other's settings and would both tidy the same download folders as they start.
-- Log files are never cleaned up by themselves. "Open logs folder" in Settings shows where they are.
+- Log files are never deleted by themselves. session.log, stalls.log and downloads.log each stop
+  growing at 256 KB by dropping their oldest lines; crash reports (panic-*.log) are one file per crash.
+  "Open logs folder" in Settings shows where they are.
 - A crash report names the error message and the line of code where it happened, not every step
   that led there. A report that says what you did just before helps most.
 - Uninstalling means deleting the folder that holds rimoxide.exe. Your data stays in

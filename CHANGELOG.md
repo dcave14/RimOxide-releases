@@ -2,6 +2,21 @@
 
 The newest version is at the top.
 
+## 0.9.0-beta.2
+
+Built on 2026-11-22. It fixes what the first try on a second PC found.
+
+- After a download without Steam (through SteamCMD), RimOxide now confirms what was installed.
+  Before, that check answered "unreadable" for every mod.
+- The library-guard folder in RimOxide's data folder no longer grows with every download run.
+- New: logs\session.log. It notes the start, the game that was found, the notices shown, download
+  runs, saves and launches, so a problem report always has a log to attach. It holds no mod list.
+
+Good to know:
+
+- Do not go back to an older beta after using a newer one.
+- This beta is not code-signed and has been tried on two PCs only.
+
 ## 0.9.0-beta.1
 
 The first public beta, built on 2026-11-21.

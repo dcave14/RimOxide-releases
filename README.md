@@ -12,7 +12,7 @@ You can bring your mod lists, rules and colours over from the mod manager you us
 
 This is a beta. Back up your saves and mod lists before you use it.
 
-It is an early beta: it is not code-signed and has not yet been tried on a clean PC.
+It is an early beta: it is not code-signed and has been tried on two PCs only.
 
 To get it, see [Download](#download) below.
 
@@ -69,7 +69,7 @@ More pictures: [the sort proposal](docs/media/sort-review.png), [the Problems pa
 Get it from the [Releases page](https://github.com/dcave14/RimOxide-releases/releases), the newest entry at the top.
 
 Pick the file whose name starts with RimOxide- and ends with -windows-x64.zip.
-For the first beta that is RimOxide-0.9.0-beta.1-windows-x64.zip.
+For this beta that is RimOxide-0.9.0-beta.2-windows-x64.zip.
 Unzip it into any folder you like and run rimoxide.exe. Nothing is installed.
 
 ## Windows may warn you the first time
@@ -93,7 +93,7 @@ the one that was published:
 
 1. Open PowerShell in the folder that holds the zip. In File Explorer, type `powershell` in the address bar
    and press Enter.
-2. Run `Get-FileHash .\RimOxide-0.9.0-beta.1-windows-x64.zip`, with the name of the zip you downloaded.
+2. Run `Get-FileHash .\RimOxide-0.9.0-beta.2-windows-x64.zip`, with the name of the zip you downloaded.
 3. Compare the long code under **Hash** with the zip's line in SHA256SUMS.txt on the release page, or with
    the "sha256:" value GitHub shows beside the file. Upper and lower case do not matter, but every other
    character must be the same. If they differ, delete the zip and tell us.
@@ -197,6 +197,10 @@ The full list is in [KNOWN-ISSUES.md](KNOWN-ISSUES.md).
 
 Report problems on the [Issues page](https://github.com/dcave14/RimOxide-releases/issues/new/choose) with the bug form.
 Attach the log files. In RimOxide open Settings, About, and press "Open logs folder".
+session.log is always there: a few lines per session (start, the game found or not, messages shown,
+finished downloads, saves, launches and exit), with counts but never your mod list.
+The other logs appear only when something went wrong: panic-*.log after a crash, stalls.log after
+a slow moment, downloads.log after a failed download.
 These files can show your Windows user name and your mod names: look them over before you post them.
 Never share the workshop-browser folder: it holds your Steam sign-in.
 
