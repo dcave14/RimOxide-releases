@@ -2,6 +2,25 @@
 
 The newest version is at the top.
 
+## 0.9.0-beta.4
+
+Built on 2026-11-22.
+
+- Fixed: in 0.9.0-beta.2 and 0.9.0-beta.3 the mod list stayed empty at start until you pressed
+  Reload. Your mods and lists were never touched; the first load was simply not started.
+- While RimOxide reads your mods at start, the window now says it is loading. It no longer says
+  that no mods are installed.
+- The taskbar and title-bar icon follow the theme, and rimoxide.exe has its icon in File Explorer.
+- Details shows a mod's own version; the game versions it supports are under "For game".
+- A copy of the game that no store knows is found from the game's own log, once the game has been
+  started at least once.
+- Opening Rules in Details scrolls the rules into view.
+
+Good to know:
+
+- Do not go back to an older beta after using a newer one.
+- This beta is not code-signed and has been tried on two PCs only.
+
 ## 0.9.0-beta.3
 
 Built on 2026-11-22. Small fixes from a test run on a second PC.

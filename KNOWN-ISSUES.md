@@ -10,8 +10,11 @@ please report it: see "Report a problem" in the [README](README.md#report-a-prob
 - It has been tried on two PCs only.
 - With Smart App Control on, it will not run.
 - There is no installer. The download is a zip: unzip it and run rimoxide.exe.
-- The file's icon in File Explorer is blank. The window has its icon.
 - Windows only. Tested with RimWorld 1.7.
+- A Steam copy of the game is found by itself. Any other copy is found once it has been started at
+  least once on this PC: RimOxide reads the folder from the first lines of the game's own log. A copy
+  that has never been started, or was only started by another Windows user, is not found: choose its
+  folder in Settings.
 - The Workshop tab needs Microsoft Edge WebView2, which most Windows PCs already have. Without it,
   RimOxide tells you so and the rest of the app still works.
 - Only one RimOxide window runs at a time. A second start is refused, because two windows would

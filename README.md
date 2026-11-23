@@ -69,7 +69,7 @@ More pictures: [the sort proposal](docs/media/sort-review.png), [the Problems pa
 Get it from the [Releases page](https://github.com/dcave14/RimOxide-releases/releases), the newest entry at the top.
 
 Pick the file whose name starts with RimOxide- and ends with -windows-x64.zip.
-For this beta that is RimOxide-0.9.0-beta.3-windows-x64.zip.
+For this beta that is RimOxide-0.9.0-beta.4-windows-x64.zip.
 Unzip it into any folder you like and run rimoxide.exe. Nothing is installed.
 
 ## Windows may warn you the first time
@@ -93,7 +93,7 @@ the one that was published:
 
 1. Open PowerShell in the folder that holds the zip. In File Explorer, type `powershell` in the address bar
    and press Enter.
-2. Run `Get-FileHash .\RimOxide-0.9.0-beta.3-windows-x64.zip`, with the name of the zip you downloaded.
+2. Run `Get-FileHash .\RimOxide-0.9.0-beta.4-windows-x64.zip`, with the name of the zip you downloaded.
 3. Compare the long code under **Hash** with the zip's line in SHA256SUMS.txt on the release page, or with
    the "sha256:" value GitHub shows beside the file. Upper and lower case do not matter, but every other
    character must be the same. If they differ, delete the zip and tell us.
